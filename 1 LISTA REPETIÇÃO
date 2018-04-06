@@ -1,6 +1,5 @@
 // Código com repetição 
-//Questão: Escrever um programa em C para mostrar todos os números inteiros entre A e B (valores inteiros, lidos do teclado) que não terminem em zero.
-
+//Faça um programa em C que exiba todos os números pares e a soma dos números ímpares compreendidos entre 10 e 200 (exclusive).
 #include <stdio.h>
 #include <stdlib.h>
 
