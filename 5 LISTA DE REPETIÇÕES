@@ -1,0 +1,17 @@
+//Faça um programa que solicite ao usuário para digitar valores numéricos inteiros positivos. Encerre a entrada de dados quando for digitado um número negativo ou zero. Calcule a média dos números positivos digitados.
+
+include <stdio.h>
+int main(){
+	int i=0;
+	float soma, num;
+	
+	do{
+		printf("\nInforme um numero:");
+		scanf("%f", &num);
+		soma+=num;
+		i++;}
+		while(num>0);
+		printf("\nA media eh: %.2f", soma/i);
+		
+		return 0;
+}
