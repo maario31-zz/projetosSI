@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+//Construa um programa que leia o conjunto de 20 números inteiros e mostre qual o maior e o menor valor fornecido.
+int main ()
+{   int i, x, maior=0, menor=1000;
+
+
+    for(i=0;i<=20;i++)
+	{printf("Entre com valor %d:\n", i);
+	scanf("%d", &x);
+
+        if(x>maior)
+        {
+            maior = x;
+        }
+        if(x<menor)
+        {
+            menor = x;
+        }
+	}
+        printf("\nA maior nota foi %d", maior);
+        printf("\nA menor nota foi %d", menor);
+}
