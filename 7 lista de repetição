@@ -1,0 +1,39 @@
+/*7. Construa um programa que leia vários números inteiros e mostre qual foi o maior e o menor valor fornecido.
+Para cada valor digitado, deve ser solicitado ao usuário que ele digite se ele deseja continuar entrando com
+valores.*/
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main ()
+{ int x, maior=0, menor=1000, i=1;
+  char y, s, n;
+
+     while( y != 'n' )
+    {
+    printf("\nEntre um numero aqui %d:\t", i++);
+     scanf( "%d", &x);
+        if(x>maior)
+            {
+                maior = x;
+            }
+        if(x<menor){
+            menor = x;
+            }
+
+
+        while( y != 'n' || y != 's'){
+        printf("\nDeseja continuar? S/N:\t");
+        scanf(" %c", &y);
+        }
+
+
+        }
+
+
+    printf("\nO valor %d foi o maior", maior);
+    printf("\nO valor %d foi o menor", menor);
+
+
+return 0;
+}
