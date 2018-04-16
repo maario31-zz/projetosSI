@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (){
+
+int n, i;
+double fat=1;
+printf("Digite um numero para fazer fatorial");
+scanf("%d", &n);
+for(i=n;i>1;i--)
+    fat=fat*i;
+printf("%lf\n", fat);
+
+
+
+return 0;
+}
