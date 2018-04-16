@@ -1,0 +1,18 @@
+/* Maria tem altura de 1.10 cm e cresce 0.10 cm por semestre. João por sua vez tem 1.30 e cresce 0.07 por semestre.
+Faça um programa que diga em quantos semesrtes maria ficará maior que joão */
+#include <stdio.h>
+#include <stdlib.h>
+int main(){
+float maria = 1.10;
+float joao = 1.30;
+int sm=0;
+    while(maria<=joao)
+    {
+    joao=joao + 0.07;
+    maria= maria + 0.10;
+    sm++;
+    }
+ printf("%d", sm);
+return 0;
+}
+
