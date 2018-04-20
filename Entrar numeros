@@ -1,0 +1,25 @@
+//entrar com numeros, para quando aparecer um negativo e calcular a media dos pares apos parar]
+
+#include <stdio.h>
+#include <stdlib.h>
+int main(){
+	int x = 0, i = 0, pares, media;
+
+	do{ printf("Entre com valor numerico aqui: \n");
+		scanf("%d", &x);
+		
+		if(x%2==0){
+			pares = pares + x;
+			i++;
+		}
+	} 
+	while(x>0);{
+		media = pares/i;
+	}
+printf("A media dos numeros pares eh: %d\n", media);
+
+
+
+return 0;
+	
+}
