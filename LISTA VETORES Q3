@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main(void){
+int a[5]={5,4,8,10,9} , b[5]={2, 4, 2, 5, 4}, resp[5], i;
+for(i=0;i<=5;i++){
+    resp[i] = a[i] - b[i];
+printf("\n\n");
+printf("**VALORES DA SUBTRACAO**: %d", resp[i]);
+}
+return 0;
+}
